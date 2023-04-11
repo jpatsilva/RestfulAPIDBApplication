@@ -1,0 +1,15 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>Maintenance Shop Lawn Mowers</h1>
+<ul>
+    <% for(mower of mowers) { %>
+        <li>
+            <%= "Manufacturer: " + mower.maker + " Type: " + mower.type + " Model Year: " + mower.year + " Power Source: " + mower.powerPlant + " Run Time: " + mower.capacity + " hours Color: " + mower.color + " Tank Size or Charge Capacity: " + mower.size %>
+        </li>
+    <% } %>
+</ul>
+</body>
+</html>

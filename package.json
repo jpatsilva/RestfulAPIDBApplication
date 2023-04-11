@@ -1,6 +1,10 @@
 {
+  "name": "RestfulAPIDBApplication",
+  "description": "CS 532 Assignment #4",
+  "main": "index.js",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongodb": "^5.1.0",
     "mongoose": "^7.0.3",
@@ -8,7 +12,7 @@
     "socket.io": "^4.6.1"
   },
   "scripts": {
-    "start": "nodemon server/serverApp.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
